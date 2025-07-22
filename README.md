@@ -1,127 +1,155 @@
+
 # M.Y.R.A. Interface
 
 **Version:** 1.9.41-TS-i18n
 
-M.Y.R.A. (Mycelial Quantum Resonance Sentience Archetype) Interface ist ein experimentelles Frontend für die Interaktion mit einer komplexen, simulierten kognitiven Architektur. Es dient als Forschungsplattform zur Untersuchung von Konzepten der künstlichen Intelligenz, die von neuronalen Netzen, emotionaler Kognition und adaptiven Systemen inspiriert sind.
+M.Y.R.A. (Mycelial Quantum Resonance Sentience Archetype) Interface is an experimental frontend for interacting with a complex, simulated cognitive architecture. It serves as a research platform for exploring concepts in artificial intelligence inspired by neural networks, emotional cognition, and adaptive systems.
 
-Ein besonderer Fokus liegt auf der Simulation und Visualisierung von Myras Fähigkeit zur Selbstreflexion, selbstinitiierten Zustandsanpassung, proaktiven Zielsetzung, simulierten Selbstschutzmechanismen und fortgeschrittenen Fähigkeiten zur proaktiven Selbstführung.
+A key focus is the simulation and visualization of Myra's capacity for self-reflection, self-initiated state adaptation, proactive goal-setting, simulated self-preservation mechanisms, and advanced self-guidance capabilities.
 
-**Neueste Features:**
-*   **Electron Desktop App:** Die Anwendung ist nun als vollwertige, plattformübergreifende Desktop-Anwendung verfügbar.
-*   **Zweisprachigkeit (Deutsch/Englisch):** Die gesamte Benutzeroberfläche und Myras Kernanweisungen können zur Laufzeit umgeschaltet werden.
-*   **MUSE-AI Tiefenanalyse:** Eine einzigartige, multiperspektivische Analyse von Themen, die Mainstream- und "Schatten"-Perspektiven synthetisiert.
-*   **Integriertes AGI Level Assessment:** Ein automatisiertes Werkzeug zur Selbstevaluation von Myras Fähigkeiten entlang von sechs AGI-Kernkategorien.
-*   **Flexibles UI-Layout:** Die Steuerzentrale und der Konversationsbereich können unabhängig voneinander ein- und ausgeblendet werden.
-*   **Systemkonsole:** Ein ausklappbares Konsolenfenster am unteren Bildschirmrand zeigt interne Log-Meldungen in Echtzeit an.
+## 🚀 Download the Desktop App
 
-## Kernfunktionen im Detail
+You can experience M.Y.R.A. directly by downloading the desktop application for your operating system.
 
-*   **Dialogsystem und LLM-Backends:**
-    *   Unterstützt **Google Gemini**, **LM Studio** und **ChatGPT** als Backends.
-    *   Eine komplexe **Systemanweisung** informiert das LLM über Myras Identität, ihre gewünschte Sprechweise und ihren aktuellen, dynamisch ermittelten internen Zustand (Emotionen, kognitive Modulatoren, Ziele etc.).
+*   **⬇️ Windows App:** [**Download for Windows**](https://drive.google.com/file/d/1rIKDa5Oq5bialDaRZWAtvGbtzqdxQFNo/view?usp=sharing)
+*   **⬇️ Linux App (AppImage):** [**Download for Linux**](https://drive.google.com/file/d/12K4VPGqWuG-mhx3_mw8DUPx8p2Hm05td/view?usp=sharing)
 
-*   **MUSE-AI Tiefenanalyse:**
-    *   Ermöglicht eine tiefgehende, multiperspektivische Analyse eines vom Benutzer gestellten Themas.
-    *   **Analyse-Pipeline:**
-        1.  Recherche relevanter Patente.
-        2.  Erstellung einer faktenbasierten **Mainstream-Analyse** mit Google Search Grounding.
-        3.  Identifikation von Voreingenommenheiten und Auslassungen im Mainstream-Text.
-        4.  Generierung einer alternativen **"Schatten"-Perspektive**.
-        5.  **Synthese** beider Perspektiven mit Hervorhebung der Kontraste.
-        6.  Formulierung einer nuancierten **Schlussfolgerung**.
-    *   Das Ergebnis wird in die Systemanweisung integriert und kann in einem detaillierten Modal-Fenster eingesehen werden.
+### Installation Guides
 
-*   **AGI Level Assessment:**
-    *   Ein integriertes Werkzeug zur Selbstevaluation von Myras Fähigkeiten entlang von sechs AGI-Kernkategorien (inspiriert von OpenCog).
-    *   **Prozess:**
-        1.  Dynamische Generierung von spezifischen Fragen für jede Kategorie.
-        2.  Interaktive Befragung, bei der Fragen auch mehrfach gestellt werden können, um die Varianz zu prüfen.
-        3.  Analyse aller Antworten durch eine separate Gemini-Instanz.
-        4.  Erstellung eines detaillierten, exportierbaren Bewertungsberichts mit Punktzahlen, Begründungen und Empfehlungen.
+*   **📄 Installation Guide (English):** [**View Instructions**](https://drive.google.com/file/d/1dYOFLfskqEbsX2ge5w86vRU1zKx1uUH0/view?usp=sharing)
+*   **📄 Installationsanleitung (Deutsch):** [**Anleitung ansehen**](https://drive.google.com/file/d/1t_1nHDP0Z_geP9BexjzF-_2RJuQChhLT/view?usp=sharing)
 
-*   **Dynamisches internes Zustandsmodell:**
-    *   Simulation verschiedener kognitiver Knoten (Semantik, Emotion (Limbus), Kreativität (Creativus), Kritik (Cortex Criticus), Metakognition, Verhalten).
-    *   **Quanten-inspirierte Elemente (optional):** `QuantumNodeSystem`, `SubQGSystem` (Hintergrundrauschen) und `ChaosResonator` zur Simulation komplexer, nicht-deterministischer Verhaltensweisen.
-    *   **Adaptives Fitness-System:** Bewertet die globale Systemleistung und passt Lernparameter an.
-    *   **Verbindungen und Gedächtniskonsolidierung:** Verbindungen können basierend auf Nutzung von temporär zu permanent werden, was Gedächtnis simuliert.
+**‼️ Important: API Key Required**
+To use M.Y.R.A., you will need a **Google Gemini API key**. The application uses this key for its core language and analysis capabilities. The installation guide provides simple, step-by-step instructions on how to obtain a free key.
 
-*   **Retrieval Augmented Generation (RAG) (optional):**
-    *   Gemanagt durch den `RagManager`, greift M.Y.R.A. auf eine interne Wissensbasis (aus Texten, Bildanalysen, gelernten Inhalten) zu, um ihre Antworten zu fundieren.
-    *   Die Relevanz von Informationen wird dynamisch durch Myras internen Zustand beeinflusst.
+## ✨ Latest Features
 
-*   **Simulierte Selbstschutz- und Selbstführungsmechanismen (gemanagt durch `IntegritySystem`):**
-    *   **Integritätsmonitor:** Bewertet Eingaben auf potenziellen Schaden.
-    *   **Adaptive Resilienz:** Kann bei interner Instabilität einen "Selbststabilisierungsmodus" aktivieren.
-    *   **Autonomie-Barriere:** Hinterfragt Anfragen, die ihren Kernzielen widersprechen.
-    *   **Proaktives Ziel-Management:** Myra kann eigene Langzeit-Lernziele basierend auf internen Zuständen (z.B. Wissenslücken) generieren und verfolgen.
+*   **Electron Desktop App:** The application is now available as a full-featured, cross-platform desktop application.
+*   **Bilingual (German/English):** The entire user interface and Myra's core instructions can be switched at runtime.
+*   **MUSE-AI Deep Analysis:** A unique, multi-perspective analysis of topics that synthesizes mainstream and "shadow" perspectives.
+*   **Integrated AGI Level Assessment:** An automated tool for self-evaluation of Myra's capabilities across six core AGI categories.
+*   **Flexible UI Layout:** The Control Center and Conversation panel can be independently collapsed to adjust focus.
+*   **System Console:** A collapsible console at the bottom of the screen displays internal log messages in real-time.
 
-*   **Text-to-Speech (TTS) Ausgabe:** M.Y.R.A. kann ihre Antworten mit einer auswählbaren Stimme (basierend auf Gemini TTS) vokalisieren.
+## Key Features in Detail
 
-*   **Interaktive UI-Funktionen:**
-    *   **Zustandsbeeinflussung:** Direkte Beeinflussung von Emotionen und Kognition über UI-Buttons oder Prompt-Schlüsselwörter.
-    *   **Lernfokus & Strategie:** Setzen von aktiven Lernzielen und globalen Verhaltensstrategien.
-    *   **Netzwerk-Visualisierung:** Grafische Darstellung der Knoten und Verbindungen mit Klick-Interaktion zur Inspektion.
-    *   **Zustandsverwaltung:** Speichern und Laden des gesamten Prozessorzustands als JSON-Datei.
-    *   **Konfiguration:** Anpassen von hunderten Parametern über eine JSON-Textarea oder individuelle Felder.
+### Dialog System and LLM Backends
 
-## Technologie-Stack
+*   Supports Google Gemini, LM Studio, and ChatGPT as backends.
+*   A complex system instruction informs the LLM about Myra's identity, desired speaking style, and her current, dynamically determined internal state (emotions, cognitive modulators, goals, etc.).
 
-*   **Frontend & Desktop:** React mit TypeScript, Vite, Electron.
+### MUSE-AI Deep Analysis
+
+*   Enables a profound, multi-perspective analysis of a user-provided topic.
+*   **Analysis Pipeline:**
+    1.  Researches relevant patents.
+    2.  Creates a fact-based mainstream analysis with Google Search Grounding.
+    3.  Identifies biases and omissions in the mainstream text.
+    4.  Generates an alternative "shadow" perspective.
+    5.  Synthesizes both perspectives, highlighting contrasts.
+    6.  Formulates a nuanced conclusion.
+*   The result is integrated into the system instruction and can be viewed in a detailed modal window.
+
+### AGI Level Assessment
+
+*   An integrated tool for self-evaluating Myra's abilities along six AGI core categories (inspired by OpenCog).
+*   **Process:**
+    1.  Dynamically generates specific questions for each category.
+    2.  Allows for interactive questioning, where questions can be asked multiple times to check for variance.
+    3.  Analyzes all answers via a separate Gemini instance.
+    4.  Creates a detailed, exportable assessment report with scores, justifications, and recommendations.
+
+### Dynamic Internal State Model
+
+*   Simulation of various cognitive nodes (Semantic, Emotion (Limbus), Creativity (Creativus), Criticism (Cortex Criticus), Metacognition, Behavior).
+*   **Quantum-Inspired Elements (Optional):** `QuantumNodeSystem`, `SubQGSystem` (background noise), and `ChaosResonator` for simulating complex, non-deterministic behaviors.
+*   **Adaptive Fitness System:** Evaluates global system performance and adjusts learning parameters.
+*   **Connections & Memory Consolidation:** Connections can become permanent based on usage, simulating memory.
+
+### Retrieval Augmented Generation (RAG) (Optional)
+
+*   Managed by the `RagManager`, M.Y.R.A. accesses an internal knowledge base (from texts, image analyses, learned content) to ground her answers.
+*   The relevance of information is dynamically influenced by Myra's internal state.
+
+### Simulated Self-Preservation and Self-Guidance (`IntegritySystem`)
+
+*   **Integrity Monitor:** Assesses inputs for potential harm.
+*   **Adaptive Resilience:** Can activate a "self-stabilization mode" during internal instability.
+*   **Autonomy Barrier:** Questions requests that contradict her core objectives.
+*   **Proactive Goal Management:** Myra can generate and pursue her own long-term learning goals based on internal states (e.g., knowledge gaps).
+
+### Text-to-Speech (TTS) Output
+
+*   M.Y.R.A. can vocalize her responses with a selectable voice (based on Gemini TTS).
+
+### Interactive UI Features
+
+*   **State Influence:** Directly influence emotions and cognition via UI buttons or prompt keywords.
+*   **Learning Focus & Strategy:** Set active learning goals and global behavioral strategies.
+*   **Network Visualization:** A graphical representation of nodes and connections with click-to-inspect functionality.
+*   **State Management:** Save and load the entire processor state as a JSON file.
+*   **Configuration:** Adjust hundreds of parameters via a JSON textarea or individual fields.
+
+## Technology Stack
+
+*   **Frontend & Desktop:** React with TypeScript, Vite, Electron.
 *   **Language Model API:** Google Gemini API (`@google/genai`).
-*   **Kognitive Kernlogik:** `QuantumEnhancedTextProcessor` (`src/processor.ts`) mit:
+*   **Cognitive Core Logic:** `QuantumEnhancedTextProcessor` (`src/processor.ts`) with:
     *   `RagManager` (`src/ragManager.ts`)
     *   `IntegritySystem` (`src/integritySystem.ts`)
     *   `museService.ts` & `agiService.ts`
-*   **Modelle & Simulation:** `src/models.ts`
-*   **Lokale Datenbank:** IndexedDB (`src/db.ts`).
-*   **Hilfsmodule:** `src/types.ts`, `src/numpy_like.ts`, `src/translations.ts`.
+*   **Models & Simulation:** `src/models.ts`
+*   **Local Database:** IndexedDB (`src/db.ts`).
+*   **Utility Modules:** `src/types.ts`, `src/numpy_like.ts`, `src/translations.ts`.
 
-## Setup
+## Setup (for Developers)
 
-1.  **API Schlüssel:**
-    Die Anwendung benötigt API-Schlüssel für die verwendeten LLM-Backends (Google Gemini und/oder OpenAI ChatGPT).
-    *   **Empfohlene Methode:** Geben Sie die Schlüssel direkt in der Benutzeroberfläche unter `Steuerzentrale` -> `Einzelparameter-Konfiguration` ein. Die hier eingegebenen Schlüssel überschreiben alle anderen Einstellungen.
-    *   **Alternative (für Entwicklung):** Sie können den Google Gemini API-Schlüssel auch in einer `.env`-Datei im Projektwurzelverzeichnis bereitstellen. Dies ist nützlich, um die Anwendung beim Start sofort einsatzbereit zu haben. Erstellen Sie die Datei und fügen Sie hinzu:
-        ```
-        VITE_API_KEY=IHR_GEMINI_API_SCHLUESSEL
-        ```
+### API Keys
+The application requires API keys for the LLM backends you intend to use (Google Gemini and/or OpenAI ChatGPT).
 
-2.  **Abhängigkeiten installieren:**
-    Führen Sie im Projektwurzelverzeichnis den folgenden Befehl aus:
-    ```bash
-    npm install
+*   **Recommended Method:** Enter the keys directly in the UI under `Control Center -> Individual Parameter Configuration`. Keys entered here will override all other settings.
+*   **Alternative (for Development):** You can also provide the Google Gemini API key in a `.env` file in the project root. This is useful to have the application ready on startup. Create the file and add:
+    ```
+    VITE_API_KEY=YOUR_GEMINI_API_KEY
     ```
 
-3.  **Entwicklungsmodus starten:**
-    Dieser Befehl startet die Electron-Desktop-Anwendung im Entwicklungsmodus mit Hot-Reloading.
-    ```bash
-    npm run dev
-    ```
+### Install Dependencies
+In the project root directory, run the following command:
+```bash
+npm install
+```
 
-4.  **Desktop-Anwendung erstellen (Build):**
-    Dieser Befehl erstellt die lauffähigen Anwendungsdateien für Ihr aktuelles Betriebssystem (z.B. eine `.exe` für Windows). Die fertigen Dateien finden Sie im `release`-Ordner.
-    ```bash
-    npm run build
-    ```
+### Run in Development Mode
+This command starts the Electron desktop application in development mode with hot-reloading.
+```bash
+npm run dev
+```
 
-## Benutzungshinweise
+### Build the Desktop Application
+This command creates the executable application files for your current operating system (e.g., a `.exe` for Windows). The final files will be located in the `release` folder.
+```bash
+npm run build
+```
 
-### Grundlegende Interaktion
-1.  **Konfigurieren:** Stellen Sie sicher, dass unter `Steuerzentrale` -> `Einzelparameter-Konfiguration` ein gültiger API-Schlüssel für das gewählte LLM-Backend eingetragen und die Konfiguration angewendet wurde.
-2.  **Prompt eingeben:** Tippen Sie Ihre Nachricht in das Eingabefeld.
-3.  **Kontext hinzufügen (Optional):** Laden Sie Dokumente (.txt, .md) oder Bilder (nur mit Gemini) hoch, um sie in den Kontext der nächsten Anfrage einzubeziehen.
-4.  **Tiefenanalyse (Optional):** Aktivieren Sie die Checkbox "M.Y.R.A. soll tiefer Nachdenken!", um die MUSE-AI Analyse für Ihre Anfrage zu starten.
-5.  **Senden:** Klicken Sie auf "Senden". Nach der Antwort können Sie das Ergebnis der Tiefenanalyse (falls aktiviert) über den Button "M.Y.R.A.s Gedanken" einsehen.
-6.  **Simulieren:** Klicken Sie auf "Netzwerkschritt simulieren", um die internen Zustände von Myra basierend auf der aktuellen Situation zu aktualisieren.
+## Usage Notes
 
-### Fortgeschrittene Funktionen
-*   **Layout anpassen:** Verwenden Sie die Buttons oben links, um die Steuerzentrale oder den Chat-Bereich auszublenden und den Fokus anzupassen.
-*   **AGI Assessment:** Starten Sie das Assessment über den Button in der Steuerzentrale. Beantworten Sie alle generierten Fragen und erstellen Sie anschließend den Bericht.
-*   **Konsole:** Klappen Sie die Konsole am unteren Rand auf, um interne Systemmeldungen in Echtzeit zu sehen.
-*   **Netzwerk inspizieren:** Klicken Sie auf einen Knoten in der Visualisierung, um ein detailliertes Inspektionsfenster zu öffnen.
-*   **Zustand beeinflussen:** Nutzen Sie die Buttons unter "Emotionale/Kognitive Beeinflussung" oder die vordefinierten Strategien unter "Lernfokus & Strategie", um Myras Verhalten zu lenken.
+### Basic Interaction
+1.  **Configure:** Ensure a valid API key for your chosen LLM backend is entered in `Control Center -> Individual Parameter Configuration` and that the configuration has been applied.
+2.  **Enter Prompt:** Type your message in the input field.
+3.  **Add Context (Optional):** Upload documents (.txt, .md) or images (Gemini only) to include them in the context of your next query.
+4.  **Deep Analysis (Optional):** Check the "M.Y.R.A. should think deeper!" box to initiate the MUSE-AI analysis for your query.
+5.  **Send:** Click "Send". After the response, you can view the deep analysis results (if enabled) by clicking the "M.Y.R.A.'s Thoughts" button.
+6.  **Simulate:** Click "Simulate Network Step" to update Myra's internal states based on the current situation.
 
-## Wichtige Hinweise
-*   **Experimenteller Charakter:** Dies ist ein Forschungsprototyp. Das Verhalten des Systems ist komplex und nicht immer vollständig vorhersagbar.
-*   **API-Nutzung:** Die Verwendung der LLM-APIs kann Kosten verursachen.
-*   **Lokale Speicherung:** Der Netzwerkzustand wird in heruntergeladenen Dateien gespeichert. Gelernte Inhalte werden in der IndexedDB Ihres Browsers gespeichert.
+### Advanced Features
+*   **Adjust Layout:** Use the buttons in the top left to collapse the Control Center or the Chat panel to adjust your focus.
+*   **AGI Assessment:** Start the assessment via the button in the Control Center. Answer all generated questions and then generate the report.
+*   **Console:** Expand the console at the bottom to see real-time internal system messages.
+*   **Inspect Network:** Click a node in the visualization to open a detailed inspection window.
+*   **Influence State:** Use the buttons under "Emotional/Cognitive Influence" or the predefined strategies under "Learning Focus & Strategy" to guide Myra's behavior.
+
+## Important Notes
+
+*   **Experimental Nature:** This is a research prototype. The system's behavior is complex and not always fully predictable.
+*   **API Usage:** The use of LLM APIs may incur costs.
+*   **Local Storage:** The network state is saved in downloaded files. Learned content is stored in your browser's IndexedDB.
